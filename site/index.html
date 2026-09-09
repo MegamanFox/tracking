@@ -47,7 +47,10 @@
           <label for="from-currency">From</label>
           <select id="from-currency" name="from"></select>
         </div>
-        <button type="button" class="converter__arrow" id="swap-button" aria-label="Swap currencies and use the result as the new amount">&#8646;</button>
+        <div class="field field--swap">
+          <label aria-hidden="true">&nbsp;</label>
+          <button type="button" class="converter__arrow" id="swap-button" aria-label="Swap currencies and use the result as the new amount">&#8646;</button>
+        </div>
         <div class="field field--result">
           <label for="result">Result</label>
           <output id="result" for="amount from-currency to-currency">–</output>
