@@ -1,0 +1,13 @@
+{
+  "name": "zoros-exchange-rate-tracker",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Live USD exchange rates, tracked automatically via GitHub Actions + GitHub Pages, sourced from Frankfurter.",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "update-rates": "node scripts/update-rates.mjs"
+  }
+}
