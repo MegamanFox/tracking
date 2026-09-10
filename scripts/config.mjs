@@ -7,5 +7,5 @@ export const CONFIG = {
   // Frankfurter's underlying data (ECB + partner central banks) only
   // updates once a day on business days, so there's no point checking more
   // often than this.
-  minUpdateIntervalHours: 20
+  minUpdateIntervalHours: 5
 }
